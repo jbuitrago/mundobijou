@@ -1,0 +1,60 @@
+/*** Estilos Mails */
+
+body,div,td,th,a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #000000;
+}
+.titulo {
+    float:left;
+    width:100%;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    text-align:center;
+    vertical-align: middle;
+    color: #666666;
+}
+.contenido_margen {
+    float: left;
+    width: 2%;
+    height:40px;
+    background-color:#FFFFFF;
+}
+.contenido_titulo {
+    float: left;
+    width: 28%;
+    height:40px;
+    overflow: hidden;
+    background-color:#FFFFFF;
+}
+.contenido_7 {
+    float: left;
+    width: 70%;
+    height:40px;
+    overflow: hidden;
+    background-color:#FFFFFF;
+}
+.contenido_alto_libre {
+    float: left;
+    width: 70%;
+    overflow: hidden;
+    background-color:#FFFFFF;
+}
+.contenido_separador {
+    float: left;
+    width: 100%;
+    height:10px;
+    background-color:#FFFFFF;
+}
+.contenido_separador_color {
+    float: left;
+    width: 100%;
+    height: 10px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #CCCCCC;
+    background-color:#FFFFFF;
+}

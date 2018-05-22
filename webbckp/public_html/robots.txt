@@ -1,0 +1,8 @@
+# robots.txt for http://kirke.ws/
+
+# Mapa del sitio en:
+Sitemap: http://mundobijou.kirke-dev.com.ar/sitemap.xml
+
+# Ocultar para todos los robots de busqueda:
+User-agent: *
+		

@@ -1,0 +1,188 @@
+/*** Botonera */
+.botonera {
+    float: right;
+    margin-bottom:10px;
+    margin-right:12px;
+}
+.bt_post,
+.bt_get{
+    font-family:       Arial, Verdana, Helvetica, sans-serif;
+    font-size:         11px;
+    font-weight:       bold;
+    color:             #FFFFFF;
+    background-position: top right;
+    background-repeat:no-repeat;
+    background-image: url('../img/bt_fondo.png');
+    padding-bottom:    0px;
+    padding-right:     10px;
+    padding-left:      10px;
+}
+.bt_post{
+    height:18px;
+    padding-top:       0px;
+}
+.bt_get{
+    height:16px;
+    padding-top:       2px;
+}
+.bt_post:hover,
+.bt_get:hover {
+    color:             #FF5454;
+    background-position: bottom right;
+}
+/* Boton submit */
+.link_submit {
+    font-family:       Arial, Verdana, Helvetica, sans-serif;
+    font-size:         11px;
+    font-weight:       bold;
+    color:             #FFFFFF;
+    background:        url('../img/nada.gif');
+    border:            none;
+}
+.link_submit:hover {
+    color:             #FF5454;
+}
+/* Botones especiales general */
+.bt_volver, .bt_siguiente, .bt_editar, .bt_ver, .bt_nuevo, .bt_volver_punteado, .bt_exportar_der, .bt_refrescar, .bt_guardar, .bt_guardar_ver, .bt_inicio_ingreso, .bt_vista_previa, .bt_volver_post, .bt_mostrar, .bt_filtrar, .bt_ocultar, .bt_eliminar, .bt_volver_a_registros {
+    margin-top:10px;
+    float:left;
+    margin-left:10px;
+    height:18px;
+    padding-left:20px;
+    background-repeat:no-repeat;
+    background-image: url('../img/bt.png');
+    display:block;
+}
+/* Botones especiales */
+.bt_volver {
+    background-position: 0px -720px;
+}
+.bt_volver:hover {
+    background-position: 0px -738px;
+    text-decoration: none;
+}
+.bt_siguiente {
+    background-position: 0px -540px;
+}
+bt_siguiente:hover {
+    background-position: 0px -558px;
+    text-decoration: none;
+}
+.bt_editar {
+    background-position: 0px -180px;
+}
+.bt_editar:hover {
+    background-position: 0px -198px;
+    text-decoration: none;
+}
+.bt_ver {
+    background-position: 0px -612px;
+}
+.bt_ver:hover {
+    background-position: 0px -630px;
+    text-decoration: none;
+}
+.bt_nuevo {
+    background-position: 0px -396px;
+}
+.bt_nuevo:hover {
+    background-position: 0px -414px;
+    text-decoration: none;
+}
+.bt_volver_punteado {
+    background-position: 0px -756px;
+}
+.bt_volver_punteado:hover {
+    background-position: 0px -774px;
+    text-decoration: none;
+}
+.bt_exportar_der {
+    background-position: 0px 0px;
+}
+.bt_exportar_der:hover {
+    background-position: 0px -18px;
+    text-decoration: none;
+}
+.bt_refrescar {
+    background-position: 0px -432px;
+}
+.bt_refrescar:hover {
+    background-position: 0px -450px;
+    text-decoration: none;
+}
+.bt_guardar {
+    background-position: 0px -288px;
+}
+.bt_guardar:hover {
+    background-position: 0px -306px;
+    text-decoration: none;
+}
+.bt_guardar_ver {
+    background-position: 0px -288px;
+}
+.bt_guardar_ver:hover {
+    background-position: 0px -306px;
+    text-decoration: none;
+}
+.bt_inicio_ingreso {
+    background-position: 0px -324px;
+}
+.bt_inicio_ingreso:hover {
+    background-position: 0px -342px;
+    text-decoration: none;
+}
+.bt_vista_previa {
+    background-position: 0px -648px;
+}
+.bt_vista_previa:hover {
+    background-position: 0px -666px;
+    text-decoration: none;
+}
+.bt_volver_post {
+    background-position: 0px -720px;
+}
+.bt_volver_post:hover {
+    background-position: 0px -738px;
+    text-decoration: none;
+}
+.bt_mostrar {
+    background-position: 0px -144px;
+}
+.bt_mostrar:hover {
+    background-position: 0px -162px;
+    text-decoration: none;
+}
+.bt_filtrar {
+    background-position: 0px -792px;
+}
+.bt_filtrar:hover {
+    background-position: 0px -810px;
+    text-decoration: none;
+}
+.bt_ocultar {
+    background-position: 0px -540px;
+}
+.bt_ocultar:hover {
+    background-position: 0px -558px;
+    text-decoration: none;
+}
+.bt_eliminar {
+    background-position: 0px -216px;
+}
+.bt_eliminar:hover {
+    background-position: 0px -234px;
+    text-decoration: none;
+}
+.bt_volver_a_registros {
+    background-position: 0px -756px;
+}
+.bt_volver_a_registros:hover {
+    background-position: 0px -774px;
+    text-decoration: none;
+}
+.botonera_izq{
+    float:left;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-right:12px;
+}

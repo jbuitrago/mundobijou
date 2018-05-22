@@ -1,0 +1,12 @@
+<?php
+
+class BDMysqliObtenerOrden {
+
+    static public function consulta($tabla) {
+
+        $resultado_matriz = mysqli_fetch_array(BDMysqliConexion::conexion(), mysqli_query('SELECT MAX(orden) AS orden FROM ' . $tabla . ';'), MYSQLI_ASSOC);
+
+        return ($resultado_matriz['orden'] + 1);
+    }
+
+}

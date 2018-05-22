@@ -1,0 +1,13 @@
+﻿    <div class="contenido_separador"></div>
+<div class="contenido_margen"></div>
+<div class="contenido_titulo">{TR|o_nombre}</div>
+<div class="contenido_7">{PL|nombre}</div>
+<div class="contenido_margen"></div>
+<div class="contenido_titulo">{TR|o_apellido}</div>
+<div class="contenido_7">{PL|apellido}</div>
+<div class="contenido_margen"></div>
+<div class="contenido_titulo">{TR|o_usuario}</div>
+<div class="contenido_7">{PL|usuario}</div>
+<div class="contenido_margen"></div>
+<div class="contenido_titulo">{TR|o_clave}</div>
+<div class="contenido_7">{PL|clave}</div>
