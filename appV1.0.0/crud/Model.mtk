@@ -1,0 +1,14 @@
+<?php
+
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class #NAME_model extends Default_model {
+
+    var $table = '#NAME';
+    var $column = array('id',#FIELDSMODEL);
+    var $order = array('id' => 'desc');
+
+    public function __construct() {
+        parent::__construct();
+    }
+}
